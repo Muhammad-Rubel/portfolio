@@ -3,3 +3,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+	body {
+		@apply bg-navy text-slate font-sans leading-[1.3] text-lg sm:text-xl;
+	}
+}
+
+@layer components {
+	.max-w-1000 {
+		@apply max-w-[1000px] mx-auto;
+	}
+	.section-py {
+		@apply py-16 sm:py-20 lg:py-24;
+	}
+
+	.big-heading {
+		font-size: clamp(40px, 8vw, 80px);
+	}
+}
