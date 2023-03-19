@@ -1,5 +1,5 @@
 <script lang="ts">
-	import ProfilePic from '$lib/images/me.avif';
+	import ProfilePic from '$lib/images/robel.jpg';
 
 	const items = [
 		'JavaScript (ES6+)',
@@ -22,10 +22,10 @@
 		>
 	</h2>
 
-	<div class="items-start justify-between space-x-10 lg:flex">
+	<div class="items-start justify-between lg:flex lg:space-x-10">
 		<div class="lg:w-3/5">
 			<p class="mb-4 text-lg">
-				Hello! My name is Brittany and I enjoy creating things that live on the internet. My
+				Hello! My name is Mohammad Robel and I enjoy creating things that live on the internet. My
 				interest in web development started back in 2012 when I decided to try editing custom Tumblr
 				themes — turns out hacking together a custom reblog button taught me a lot about HTML & CSS!
 			</p>
@@ -55,7 +55,7 @@
 		</div>
 
 		<div class="mt-12 flex justify-center lg:mt-0 lg:w-2/5">
-			<div class="group relative h-56 w-56 rounded md:h-64 md:w-64 lg:h-[300px] lg:w-[300px]">
+			<div class="group relative h-60 w-48 rounded md:h-64 md:w-52 lg:h-[370px] lg:w-[300px]">
 				<img src={ProfilePic} alt="" class="h-full w-full rounded object-cover object-center" />
 
 				<span

@@ -1,34 +1,35 @@
 <script lang="ts">
 	import Logo from './Svg/Logo.svelte';
 	import Menu from './Svg/Menu.svelte';
+	import { base } from '$app/paths';
 
 	const navItems = [
 		{
 			label: 'About',
-			url: '/#about'
+			url: ''
 		},
 		{
 			label: 'Experience',
-			url: '/#experience'
+			url: ''
 		},
 		{
 			label: 'Work',
-			url: '/#work'
+			url: ''
 		},
 		{
 			label: 'contact',
-			url: '/#contact'
+			url: ''
 		},
 		{
 			label: 'Resume',
-			url: '/resume.pdf'
+			url: ''
 		}
 	];
 </script>
 
 <header class="fixed top-0 left-0 z-40 w-screen bg-navy">
 	<div class="custom-container flex items-center justify-between py-5">
-		<a href="/">
+		<a href="">
 			<Logo className="h-10 w-10 text-green" />
 		</a>
 
