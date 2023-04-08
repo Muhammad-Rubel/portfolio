@@ -37,7 +37,7 @@
 		>
 	</h2>
 
-	<div class="flex items-start justify-start space-x-4">
+	<div class="items-start justify-start md:flex md:space-x-4">
 		<div class="mb-8">
 			{#each experiences as item, i}
 				<button
