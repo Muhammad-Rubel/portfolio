@@ -13,7 +13,7 @@
 	];
 </script>
 
-<section class="custom-container">
+<section class="custom-container section-py">
 	<h2 class="mb-10 flex items-center justify-start space-x-4 text-[clamp(26px,5vw,32px)]">
 		<span class="text-2xl text-green">01.</span>
 		<span
