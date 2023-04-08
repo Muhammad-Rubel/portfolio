@@ -3,12 +3,14 @@
 	import Experience from '$lib/components/Experience.svelte';
 	import FeaturedProjects from '$lib/components/FeaturedProjects.svelte';
 	import Hero from '$lib/components/Hero.svelte';
+	import OtherProjects from '$lib/components/OtherProjects.svelte';
 </script>
 
 <Hero />
 <About />
 <Experience />
 <FeaturedProjects />
+<OtherProjects />
 <h1 class="font-fira text-4xl font-bold text-dark-navy">Welcome to dark-navy</h1>
 <h1 class="font-fira text-4xl font-bold text-navy">Welcome to navy</h1>
 <h1 class="font-fira text-4xl font-bold text-light-navy">Welcome to light-navy</h1>
