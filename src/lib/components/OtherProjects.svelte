@@ -13,8 +13,8 @@
 			description:
 				'A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on Visual Studio Marketplace',
 			image: Image1,
-			url: '#!',
-			github: '#!',
+			url: 'test',
+			github: 'test',
 			tech: ['VS Code', 'Sublime Text', 'Atom', 'iTerm2', 'Hyper']
 		},
 		{
@@ -23,8 +23,8 @@
 			description:
 				'A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.',
 			image: Image2,
-			url: '#!',
-			github: '#!',
+			url: 'test',
+			github: 'test',
 			tech: ['React', 'Styled Components', 'Express', 'Spotify API', 'Heroku']
 		},
 		{
@@ -33,8 +33,8 @@
 			description:
 				"Having struggled with understanding how the Spotify OAuth flow works, I made the course I wish I could have had.Unlike tutorials that only cover a few concepts and leave you with half-baked GitHub repositories, this course covers everything from explaining the principles of REST APIs to implementing Spotify's OAuth flow and fetching API data in a React app.",
 			image: Image3,
-			url: '#!',
-			github: '#!',
+			url: 'test',
+			github: 'test',
 			tech: ['React', 'Express', 'Spotify API', 'Styled Components']
 		},
 		{
@@ -43,8 +43,8 @@
 			description:
 				'A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on Visual Studio Marketplace, Package Control, Atom Package Manager, and npm.',
 			image: Image1,
-			url: '#!',
-			github: '#!',
+			url: 'test',
+			github: 'test',
 			tech: ['VS Code', 'Sublime Text', 'Atom', 'iTerm2', 'Hyper']
 		},
 		{
@@ -53,8 +53,8 @@
 			description:
 				'A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.',
 			image: Image2,
-			url: '#!',
-			github: '#!',
+			url: 'test',
+			github: 'test',
 			tech: ['React', 'Styled Components', 'Express', 'Spotify API', 'Heroku']
 		},
 		{
@@ -63,8 +63,8 @@
 			description:
 				"Having struggled with understanding how the Spotify OAuth flow works, I made the course I wish I could have had.Unlike tutorials that only cover a few concepts and leave you with half-baked GitHub repositories, this course covers everything from explaining the principles of REST APIs to implementing Spotify's OAuth flow and fetching API data in a React app.",
 			image: Image3,
-			url: '#!',
-			github: '#!',
+			url: 'test',
+			github: 'test',
 			tech: ['React', 'Express', 'Spotify API', 'Styled Components']
 		}
 	];
@@ -75,7 +75,9 @@
 		Other Noteworthy Projects
 	</h2>
 
-	<a href="#!" class="text-center font-mono text-sm text-green hover:underline">view the archive</a>
+	<a href="test" class="text-center font-mono text-sm text-green hover:underline"
+		>view the archive</a
+	>
 
 	<div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
 		{#each projects as item, i}
@@ -96,7 +98,9 @@
 					</div>
 				</div>
 
-				<h3 class="font-semibold mb-2.5 text-[22px] text-light-slate hover:text-green custom-transition">
+				<h3
+					class="custom-transition mb-2.5 text-[22px] font-semibold text-light-slate hover:text-green"
+				>
 					<a href={item.url}>{item.name}</a>
 				</h3>
 

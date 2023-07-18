@@ -12,8 +12,8 @@
 			description:
 				'A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on Visual Studio Marketplace, Package Control, Atom Package Manager, and npm.',
 			image: Image1,
-			url: '#!',
-			github: '#!',
+			url: 'test',
+			github: 'test',
 			tech: ['VS Code', 'Sublime Text', 'Atom', 'iTerm2', 'Hyper']
 		},
 		{
@@ -22,8 +22,8 @@
 			description:
 				'A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.',
 			image: Image2,
-			url: '#!',
-			github: '#!',
+			url: 'test',
+			github: 'test',
 			tech: ['React', 'Styled Components', 'Express', 'Spotify API', 'Heroku']
 		},
 		{
@@ -32,8 +32,8 @@
 			description:
 				"Having struggled with understanding how the Spotify OAuth flow works, I made the course I wish I could have had.Unlike tutorials that only cover a few concepts and leave you with half-baked GitHub repositories, this course covers everything from explaining the principles of REST APIs to implementing Spotify's OAuth flow and fetching API data in a React app.",
 			image: Image3,
-			url: '#!',
-			github: '#!',
+			url: 'test',
+			github: 'test',
 			tech: ['React', 'Express', 'Spotify API', 'Styled Components']
 		}
 	];
