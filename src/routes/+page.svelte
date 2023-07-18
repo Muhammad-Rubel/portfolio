@@ -1,5 +1,6 @@
 <script>
 	import About from '$lib/components/About.svelte';
+	import Contact from '$lib/components/Contact.svelte';
 	import Experience from '$lib/components/Experience.svelte';
 	import FeaturedProjects from '$lib/components/FeaturedProjects.svelte';
 	import Hero from '$lib/components/Hero.svelte';
@@ -11,7 +12,8 @@
 <Experience />
 <FeaturedProjects />
 <OtherProjects />
-<h1 class="font-fira text-4xl font-bold text-dark-navy">Welcome to dark-navy</h1>
+<Contact />
+<!-- <h1 class="font-fira text-4xl font-bold text-dark-navy">Welcome to dark-navy</h1>
 <h1 class="font-fira text-4xl font-bold text-navy">Welcome to navy</h1>
 <h1 class="font-fira text-4xl font-bold text-light-navy">Welcome to light-navy</h1>
 <h1 class="font-fira text-4xl font-bold text-lightest-navy">Welcome to lightest-navy</h1>
@@ -24,4 +26,4 @@
 <h1 class="font-fira text-4xl font-bold text-green-tint">Welcome to green-tint</h1>
 <h1 class="font-fira text-4xl font-bold text-pink">Welcome to Pink</h1>
 <h1 class="font-fira text-4xl font-bold text-blue">Welcome to blue</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p> -->
