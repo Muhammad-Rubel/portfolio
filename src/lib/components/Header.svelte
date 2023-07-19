@@ -1,7 +1,6 @@
 <script lang="ts">
 	import Logo from './Svg/Logo.svelte';
 	import Menu from './Svg/Menu.svelte';
-	import { base } from '$app/paths';
 
 	const navItems = [
 		{
@@ -37,7 +36,7 @@
 			{#each navItems as item, i}
 				<a
 					href={item.url}
-					class="last-of-type:btn-primary custom-transition group p-2.5 text-base last-of-type:ml-4 hover:text-green hover:last-of-type:bg-green-tint"
+					class="last-of-type:btn-primary custom-transition group p-2.5 text-base last-of-type:ml-4 hover:text-green"
 				>
 					<span class="text-sm text-green">0{i + 1}.</span>
 					<span>{item.label}</span>

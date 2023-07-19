@@ -9,6 +9,6 @@
 			Upstatement.
 		</p>
 
-		<button class="btn-primary mt-12">Check out my course</button>
+		<a href="#work" class="btn-primary mt-12 inline-block">Check out my work</a>
 	</div>
 </section>

@@ -33,7 +33,7 @@
 	}
 
 	.btn-primary {
-		@apply rounded border border-green bg-transparent px-4 py-3 text-green;
+		@apply custom-transition rounded border border-green bg-transparent px-4 py-3 text-green hover:bg-green-tint;
 	}
 
 	.custom-transition {
