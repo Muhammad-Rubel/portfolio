@@ -2,18 +2,58 @@
 	import ProfilePic from '$lib/images/robel.jpg';
 
 	const items = [
-		'JavaScript (ES6+)',
-		'TypeScript',
-		'Svelte',
-		'React',
-		'Vue',
-		'Tailwind',
-		'Sass',
-		'GitHub'
+		{
+			label: 'JavaScript',
+			url: 'https://www.javascript.com'
+		},
+		{
+			label: 'TypeScript',
+			url: 'https://www.typescriptlang.org'
+		},
+		{
+			label: 'React',
+			url: 'https://reactjs.org'
+		},
+		{
+			label: 'Next.js',
+			url: 'https://nextjs.org'
+		},
+		{
+			label: 'Vue',
+			url: 'https://vuejs.org'
+		},
+		{
+			label: 'Nuxt.js',
+			url: 'https://nuxt.com'
+		},
+		{
+			label: 'Svelte',
+			url: 'https://svelte.dev'
+		},
+		{
+			label: 'SvelteKit',
+			url: 'https://kit.svelte.dev'
+		},
+		{
+			label: 'Tailwind CSS',
+			url: 'https://tailwindcss.com'
+		},
+		{
+			label: 'Strapi',
+			url: 'https://strapi.io'
+		},
+		{
+			label: 'Node.js',
+			url: 'https://nodejs.org'
+		},
+		{
+			label: 'Express',
+			url: 'https://expressjs.com'
+		}
 	];
 </script>
 
-<section class="custom-container section-py">
+<section id="about" class="custom-container section-py">
 	<h2 class="mb-10 flex items-center justify-start space-x-4 text-[clamp(26px,5vw,32px)]">
 		<span class="text-2xl text-green">01.</span>
 		<span
@@ -46,10 +86,14 @@
 
 			<ul class="mt-5 grid grid-cols-2 gap-2">
 				{#each items as item}
-					<li class="text-base">
+					<a
+						href={item.url}
+						target="_blank"
+						class="custom-transition w-max text-base hover:text-green"
+					>
 						<span class="text-green"> ▹ </span>
-						{item}
-					</li>
+						<span>{item.label}</span>
+					</a>
 				{/each}
 			</ul>
 		</div>

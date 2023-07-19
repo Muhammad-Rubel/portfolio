@@ -2,10 +2,10 @@
 	let activeExperience = 0;
 	const experiences = [
 		{
-			company: 'Upstatement',
-			website: 'https://upstatement.com',
+			company: 'Rebelslab',
+			website: 'https://rebelslab.com',
 			position: 'Frontend Engineer',
-			date: 'May 2021 - Present',
+			date: 'Nov 2022 - Present',
 			workingAreas: [
 				'Write modern, performant, maintainable code for a diverse array of client and internal projects',
 				'Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, TypeScript, Gatsby, React, Craft, WordPress, Prismic, and Netlify',
@@ -13,10 +13,10 @@
 			]
 		},
 		{
-			company: 'Scout',
-			website: 'https://scout.com',
-			position: 'Studio Developer',
-			date: 'January - April 2018',
+			company: 'SR Web Studio',
+			website: 'https://https://srwebstudio.com',
+			position: 'Web Developer',
+			date: 'Jan 2020 - Present',
 			workingAreas: [
 				'Worked with a team of three designers to build a marketing website and e-commerce platform for blistabloc, an ambitious startup originating from Northeastern',
 				'Helped solidify a brand direction for blistabloc that spans both packaging and web',
@@ -26,15 +26,16 @@
 	];
 </script>
 
-<section class="section-py mx-auto max-w-[700px] px-6">
+<section id="experience" class="section-py mx-auto max-w-[700px] px-6">
 	<h2
 		class="mb-10 flex items-center justify-start space-x-4 text-[clamp(26px,5vw,32px)] text-lightest-slate"
 	>
 		<span class="text-2xl text-green">02.</span>
 		<span
 			class="relative after:absolute after:left-full after:top-1/2 after:ml-4 after:h-[1px] after:w-[70px] after:bg-lightest-navy after:lg:w-[300px]"
-			>Where I’ve Worked</span
 		>
+			Where I’ve Worked
+		</span>
 	</h2>
 
 	<div class="items-start justify-start md:flex md:space-x-4">
@@ -57,6 +58,7 @@
 				{experiences[activeExperience].position}
 				<a
 					href={experiences[activeExperience].website}
+					target="_blank"
 					class="text-green underline-offset-2 hover:underline"
 				>
 					@ {experiences[activeExperience].company}

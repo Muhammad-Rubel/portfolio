@@ -90,7 +90,7 @@
 	};
 </script>
 
-<section class="custom-container section-py">
+<section id="contact" class="custom-container section-py">
 	<h2 class="mb-10 flex items-center justify-start space-x-4 text-[clamp(26px,5vw,32px)]">
 		<span class="text-2xl text-green">04.</span>
 		<span
@@ -155,7 +155,10 @@
 					{/if}
 				</div>
 
-				<button class="btn-primary px-6 text-base" on:click={sendEmail}>Send Email</button>
+				<button
+					class="btn-primary custom-transition px-6 text-base hover:bg-green-tint"
+					on:click={sendEmail}>Send Email</button
+				>
 			</div>
 		</div>
 
@@ -168,7 +171,7 @@
 						<a href={item.link} target="_blank" class="flex h-6 w-6 items-center justify-center">
 							<svelte:component
 								this={item.icon}
-								className="h-full w-full hover:text-white transform hover:scale-110 custom-transition"
+								className="h-full w-full hover:text-green transform hover:scale-110 custom-transition"
 							/>
 						</a>
 					{/each}

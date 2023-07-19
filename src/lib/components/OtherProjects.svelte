@@ -70,7 +70,7 @@
 	];
 </script>
 
-<section class="custom-container section-py">
+<section id="otherWorks" class="custom-container section-py">
 	<h2 class="mb-2.5 text-center text-[clamp(24px,5vw,32px)] text-lightest-slate">
 		Other Noteworthy Projects
 	</h2>

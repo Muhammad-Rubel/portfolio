@@ -5,6 +5,10 @@
 @tailwind utilities;
 
 @layer base {
+	* {
+		@apply scroll-smooth;
+	}
+
 	body {
 		@apply bg-navy font-sans text-lg leading-[1.3] text-slate sm:text-xl;
 	}

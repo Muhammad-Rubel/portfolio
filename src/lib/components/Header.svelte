@@ -6,19 +6,19 @@
 	const navItems = [
 		{
 			label: 'About',
-			url: ''
+			url: '#about'
 		},
 		{
 			label: 'Experience',
-			url: ''
+			url: '#experience'
 		},
 		{
 			label: 'Work',
-			url: ''
+			url: '#work'
 		},
 		{
 			label: 'contact',
-			url: ''
+			url: '#contact'
 		},
 		{
 			label: 'Resume',
@@ -29,7 +29,7 @@
 
 <header class="fixed top-0 left-0 z-40 w-screen bg-navy">
 	<div class="custom-container flex items-center justify-between py-5">
-		<a href="">
+		<a href="/">
 			<Logo className="h-10 w-10 text-green" />
 		</a>
 
@@ -37,7 +37,7 @@
 			{#each navItems as item, i}
 				<a
 					href={item.url}
-					class="last-of-type:btn-primary custom-transition p-2.5 text-base last-of-type:ml-4 hover:last-of-type:bg-green-tint"
+					class="last-of-type:btn-primary custom-transition group p-2.5 text-base last-of-type:ml-4 hover:text-green hover:last-of-type:bg-green-tint"
 				>
 					<span class="text-sm text-green">0{i + 1}.</span>
 					<span>{item.label}</span>

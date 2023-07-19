@@ -39,7 +39,7 @@
 	];
 </script>
 
-<section class="custom-container section-py">
+<section id="work" class="custom-container section-py">
 	<h2
 		class="mb-10 flex items-center justify-start space-x-4 text-[clamp(26px,5vw,32px)] text-lightest-slate"
 	>
@@ -80,7 +80,9 @@
 								((i + 1) % 2 === 0 ? '' : 'lg:justify-end')}
 						>
 							{#each item.tech as tech}
-								<li class="mr-2.5 mb-1 text-[13px] font-medium text-light-slate last-of-type:mr-0">
+								<li
+									class="mr-1.5 mb-1 rounded-full bg-green-tint px-3 text-[13px] font-medium text-green/80 last-of-type:mr-0"
+								>
 									{tech}
 								</li>
 							{/each}
