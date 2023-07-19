@@ -8,6 +8,7 @@
 </script>
 
 <section id="work" class="custom-container section-py">
+	<!-- title -->
 	<h2
 		class="mb-10 flex items-center justify-start space-x-4 text-[clamp(26px,5vw,32px)] text-lightest-slate"
 	>
@@ -19,6 +20,7 @@
 		</span>
 	</h2>
 
+	<!-- projects -->
 	<div class="flex items-start justify-start space-x-4">
 		<div class=" mb-8 space-y-8 md:space-y-16">
 			{#each data.projects as item, i}
@@ -61,11 +63,19 @@
 							class={'mt-5 flex items-center justify-start space-x-6 ' +
 								((i + 1) % 2 === 0 ? '' : 'lg:justify-end')}
 						>
-							<a href={item.github} class="custom-transition text-light-slate hover:text-green">
+							<a
+								href={item.github}
+								aria-label="link to github"
+								class="custom-transition text-light-slate hover:text-green"
+							>
 								<Github className="h-5 w-5" />
 							</a>
 
-							<a href={item.url} class="custom-transition text-light-slate hover:text-green">
+							<a
+								href={item.url}
+								aria-label="link to {item.name}"
+								class="custom-transition text-light-slate hover:text-green"
+							>
 								<ExternalLink className="h-5 w-5" />
 							</a>
 						</div>

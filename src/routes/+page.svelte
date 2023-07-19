@@ -9,6 +9,10 @@
 	import { homepageData } from '$lib/data';
 </script>
 
+<svelte:head>
+	<title>Mohammad Robel | Portfolio</title>
+</svelte:head>
+
 <Hero data={homepageData.hero} />
 <About data={homepageData.about} />
 <Experience data={homepageData.experience} />

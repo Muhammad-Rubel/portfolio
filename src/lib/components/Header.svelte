@@ -8,14 +8,17 @@
 
 <header class="fixed top-0 left-0 z-40 w-screen bg-navy">
 	<div class="custom-container flex items-center justify-between py-5">
-		<a href="">
+		<!-- logo -->
+		<a href="#!">
 			<Logo className="h-10 w-10 text-green" />
 		</a>
 
+		<!-- nav items -->
 		<nav class="hidden items-center justify-end lg:flex">
 			{#each data.navItems as item, i}
 				<a
 					href={item.url}
+					aria-label="link to {item.label}"
 					class="last-of-type:btn-primary custom-transition group p-2.5 text-base last-of-type:ml-4 hover:text-green"
 				>
 					<span class="text-sm text-green">0{i + 1}.</span>
@@ -24,6 +27,7 @@
 			{/each}
 		</nav>
 
+		<!-- mobile menu button -->
 		<button class="p-1 lg:hidden">
 			<Menu className="h-8 w-8 text-green" />
 		</button>

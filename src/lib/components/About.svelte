@@ -5,6 +5,7 @@
 </script>
 
 <section id="about" class="custom-container section-py">
+	<!-- title -->
 	<h2 class="mb-10 flex items-center justify-start space-x-4 text-[clamp(26px,5vw,32px)]">
 		<span class="text-2xl text-green">01.</span>
 		<span
@@ -22,20 +23,25 @@
 				</p>
 			{/each}
 
+			<!-- expertiseAreas -->
 			<ul class="mt-5 grid grid-cols-2 gap-2">
 				{#each data.expertiseAreas as item}
-					<a
-						href={item.url}
-						target="_blank"
-						class="custom-transition w-max text-base hover:text-green"
-					>
-						<span class="text-green"> ▹ </span>
-						<span>{item.label}</span>
-					</a>
+					<li>
+						<a
+							href={item.url}
+							target="_blank"
+							aria-label="link to {item.label}"
+							class="custom-transition w-max text-base hover:text-green"
+						>
+							<span class="text-green"> ▹ </span>
+							<span>{item.label}</span>
+						</a>
+					</li>
 				{/each}
 			</ul>
 		</div>
 
+		<!-- profile picture -->
 		<div class="mt-12 flex justify-center lg:mt-0 lg:w-2/5">
 			<div class="group relative h-60 w-48 rounded md:h-64 md:w-52 lg:h-[370px] lg:w-[300px]">
 				<img

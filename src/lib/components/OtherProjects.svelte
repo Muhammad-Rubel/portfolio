@@ -15,11 +15,13 @@
 
 	<a
 		href={data.viewAchiveLink.url}
+		aria-label="link to {data.viewAchiveLink.label}"
 		class="text-center font-mono text-sm text-green hover:underline"
 	>
 		{data.viewAchiveLink.label}
 	</a>
 
+	<!-- projects -->
 	<div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
 		{#each data.projects as item, i}
 			<div class="bg-lightest-navy py-8 px-7 ">

@@ -1,46 +1,7 @@
 <script lang="ts">
 	import type { IContact } from '$lib/types';
-	import Facebook from './Svg/Facebook.svelte';
-	import Github from './Svg/Github.svelte';
-	import Instagram from './Svg/Instagram.svelte';
-	import Linkedin from './Svg/Linkedin.svelte';
-	import Twitter from './Svg/Twitter.svelte';
-	import Whatsapp from './Svg/Whatsapp.svelte';
 
 	export let data: IContact;
-
-	const socialMedia = [
-		{
-			name: 'Facebook',
-			link: 'https://www.facebook.com/robel.mengistu.9',
-			icon: Facebook
-		},
-		{
-			name: 'Github',
-			link: '',
-			icon: Github
-		},
-		{
-			name: 'Instagram',
-			link: '',
-			icon: Instagram
-		},
-		{
-			name: 'Linkedin',
-			link: '',
-			icon: Linkedin
-		},
-		{
-			name: 'Twitter',
-			link: '',
-			icon: Twitter
-		},
-		{
-			name: 'Whatsapp',
-			link: '',
-			icon: Whatsapp
-		}
-	];
 
 	let name = '';
 	let email = '';
@@ -48,9 +9,7 @@
 	let nameError = false;
 	let emailError = false;
 	let messageError = false;
-	let nameErrorMsg = 'This field is required';
 	let emailErrorMsg = 'This field is required';
-	let messageErrorMsg = 'This field is required';
 
 	const validateEmail = (email: string) => {
 		const re = /\S+@\S+\.\S+/;
@@ -92,6 +51,7 @@
 </script>
 
 <section id="contact" class="custom-container section-py">
+	<!-- title -->
 	<h2 class="mb-10 flex items-center justify-start space-x-4 text-[clamp(26px,5vw,32px)]">
 		<span class="text-2xl text-green">04.</span>
 		<span
@@ -102,6 +62,7 @@
 	</h2>
 
 	<div class="items-start justify-between lg:flex lg:space-x-16">
+		<!-- form -->
 		<div class="lg:w-3/5">
 			<p class="mb-4 text-lg">
 				{data.description}
@@ -164,13 +125,19 @@
 			</div>
 		</div>
 
+		<!-- social media -->
 		<div class="mt-12 flex justify-center lg:mt-0 lg:w-2/5">
 			<div class="rounded">
 				<p class="mb-4 text-lg">{data.socialMediaTitle}</p>
 
 				<div class="flex items-start justify-start space-x-4">
 					{#each data.socialMedia as item}
-						<a href={item.link} target="_blank" class="flex h-6 w-6 items-center justify-center">
+						<a
+							href={item.link}
+							target="_blank"
+							aria-label="link to social media"
+							class="flex h-6 w-6 items-center justify-center"
+						>
 							<svelte:component
 								this={item.icon}
 								className="h-full w-full hover:text-green transform hover:scale-110 custom-transition"

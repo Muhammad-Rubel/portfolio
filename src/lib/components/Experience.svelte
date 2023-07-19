@@ -7,6 +7,7 @@
 </script>
 
 <section id="experience" class="section-py mx-auto max-w-[700px] px-6">
+	<!-- title -->
 	<h2
 		class="mb-10 flex items-center justify-start space-x-4 text-[clamp(26px,5vw,32px)] text-lightest-slate"
 	>
@@ -19,6 +20,7 @@
 	</h2>
 
 	<div class="items-start justify-start md:flex md:space-x-4">
+		<!-- tabs -->
 		<div class="mb-8">
 			{#each data.experiences as item, i}
 				<button
@@ -33,12 +35,14 @@
 			{/each}
 		</div>
 
+		<!-- selected tab details -->
 		<div class="py-2.5 px-1 md:py-0">
 			<h3 class="mb-0.5 text-[22px] font-medium text-lightest-slate">
 				{data?.experiences?.[activeExperience]?.position}
 				<a
 					href={data?.experiences?.[activeExperience]?.website}
 					target="_blank"
+					aria-label="link to {data?.experiences?.[activeExperience]?.company}"
 					class="text-green underline-offset-2 hover:underline"
 				>
 					@ {data?.experiences?.[activeExperience]?.company}
