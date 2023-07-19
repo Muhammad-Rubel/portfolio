@@ -1,39 +1,19 @@
 <script lang="ts">
+	import type { IHeader } from '$lib/types';
 	import Logo from './Svg/Logo.svelte';
 	import Menu from './Svg/Menu.svelte';
 
-	const navItems = [
-		{
-			label: 'About',
-			url: '#about'
-		},
-		{
-			label: 'Experience',
-			url: '#experience'
-		},
-		{
-			label: 'Work',
-			url: '#work'
-		},
-		{
-			label: 'contact',
-			url: '#contact'
-		},
-		{
-			label: 'Resume',
-			url: ''
-		}
-	];
+	export let data: IHeader;
 </script>
 
 <header class="fixed top-0 left-0 z-40 w-screen bg-navy">
 	<div class="custom-container flex items-center justify-between py-5">
-		<a href="/">
+		<a href="">
 			<Logo className="h-10 w-10 text-green" />
 		</a>
 
 		<nav class="hidden items-center justify-end lg:flex">
-			{#each navItems as item, i}
+			{#each data.navItems as item, i}
 				<a
 					href={item.url}
 					class="last-of-type:btn-primary custom-transition group p-2.5 text-base last-of-type:ml-4 hover:text-green"

@@ -5,14 +5,17 @@
 	import FeaturedProjects from '$lib/components/FeaturedProjects.svelte';
 	import Hero from '$lib/components/Hero.svelte';
 	import OtherProjects from '$lib/components/OtherProjects.svelte';
+
+	import { homepageData } from '$lib/data';
 </script>
 
-<Hero />
-<About />
-<Experience />
-<FeaturedProjects />
-<OtherProjects />
-<Contact />
+<Hero data={homepageData.hero} />
+<About data={homepageData.about} />
+<Experience data={homepageData.experience} />
+<FeaturedProjects data={homepageData.featuredProjects} />
+<OtherProjects data={homepageData.noteworthyProjects} />
+<Contact data={homepageData.contact} />
+
 <!-- <h1 class="font-fira text-4xl font-bold text-dark-navy">Welcome to dark-navy</h1>
 <h1 class="font-fira text-4xl font-bold text-navy">Welcome to navy</h1>
 <h1 class="font-fira text-4xl font-bold text-light-navy">Welcome to light-navy</h1>

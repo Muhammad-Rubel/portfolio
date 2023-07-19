@@ -1,42 +1,10 @@
-<script>
+<script lang="ts">
+	import type { IFeaturedProjects } from '$lib/types';
+
 	import ExternalLink from './Svg/ExternalLink.svelte';
 	import Github from './Svg/Github.svelte';
-	import Image1 from '$lib/images/halcyon.avif';
-	import Image2 from '$lib/images/demo.avif';
-	import Image3 from '$lib/images/course-card.avif';
 
-	const projects = [
-		{
-			tag: 'Featured Project',
-			name: 'Halcyon Theme',
-			description:
-				'A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on Visual Studio Marketplace, Package Control, Atom Package Manager, and npm.',
-			image: Image1,
-			url: 'test',
-			github: 'test',
-			tech: ['VS Code', 'Sublime Text', 'Atom', 'iTerm2', 'Hyper']
-		},
-		{
-			tag: 'Featured Project',
-			name: 'Spotify Profile',
-			description:
-				'A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.',
-			image: Image2,
-			url: 'test',
-			github: 'test',
-			tech: ['React', 'Styled Components', 'Express', 'Spotify API', 'Heroku']
-		},
-		{
-			tag: 'Featured Project',
-			name: 'Build a Spotify Connected App',
-			description:
-				"Having struggled with understanding how the Spotify OAuth flow works, I made the course I wish I could have had.Unlike tutorials that only cover a few concepts and leave you with half-baked GitHub repositories, this course covers everything from explaining the principles of REST APIs to implementing Spotify's OAuth flow and fetching API data in a React app.",
-			image: Image3,
-			url: 'test',
-			github: 'test',
-			tech: ['React', 'Express', 'Spotify API', 'Styled Components']
-		}
-	];
+	export let data: IFeaturedProjects;
 </script>
 
 <section id="work" class="custom-container section-py">
@@ -46,21 +14,22 @@
 		<span class="text-2xl text-green">03.</span>
 		<span
 			class="relative after:absolute after:left-full after:top-1/2 after:ml-4 after:h-[1px] after:w-[70px] after:bg-lightest-navy after:lg:w-[300px]"
-			>Some Things I’ve Built</span
 		>
+			{data.title}
+		</span>
 	</h2>
 
 	<div class="flex items-start justify-start space-x-4">
 		<div class=" mb-8 space-y-8 md:space-y-16">
-			{#each projects as item, i}
+			{#each data.projects as item, i}
 				<div class="relative w-full shadow-xl lg:shadow-none">
 					<div
 						class={'absolute top-0 left-0 z-[-1] h-full w-full justify-center lg:flex lg:w-[55%] ' +
 							((i + 1) % 2 !== 0 ? '' : 'lg:right-0 lg:left-auto')}
 					>
 						<img
-							src={item.image}
-							alt=""
+							src={item.image.src}
+							alt={item.image.alt}
 							class="h-full w-full object-cover object-center lg:h-auto lg:object-contain"
 						/>
 					</div>
@@ -79,7 +48,7 @@
 							class={'flex flex-wrap justify-start lg:mt-6 ' +
 								((i + 1) % 2 === 0 ? '' : 'lg:justify-end')}
 						>
-							{#each item.tech as tech}
+							{#each item.technologies as tech}
 								<li
 									class="mr-1.5 mb-1 rounded-full bg-green-tint px-3 text-[13px] font-medium text-green/80 last-of-type:mr-0"
 								>
@@ -95,6 +64,7 @@
 							<a href={item.github} class="custom-transition text-light-slate hover:text-green">
 								<Github className="h-5 w-5" />
 							</a>
+
 							<a href={item.url} class="custom-transition text-light-slate hover:text-green">
 								<ExternalLink className="h-5 w-5" />
 							</a>

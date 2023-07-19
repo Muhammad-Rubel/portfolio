@@ -1,9 +1,11 @@
-<script>
+<script lang="ts">
+	import '$lib/css/tailwind.css';
 	import Footer from '$lib/components/Footer.svelte';
 	import Header from '$lib/components/Header.svelte';
-	import '$lib/css/tailwind.css';
+
+	import { layoutData } from '$lib/data';
 </script>
 
-<Header />
+<Header data={layoutData.header} />
 <slot />
-<Footer />
+<Footer data={layoutData.footer} />

@@ -1,12 +1,13 @@
 <script lang="ts">
-	import ProfilePic from '$lib/images/robel.jpg';
-	import { is_empty } from 'svelte/internal';
+	import type { IContact } from '$lib/types';
 	import Facebook from './Svg/Facebook.svelte';
 	import Github from './Svg/Github.svelte';
 	import Instagram from './Svg/Instagram.svelte';
 	import Linkedin from './Svg/Linkedin.svelte';
 	import Twitter from './Svg/Twitter.svelte';
 	import Whatsapp from './Svg/Whatsapp.svelte';
+
+	export let data: IContact;
 
 	const socialMedia = [
 		{
@@ -96,19 +97,18 @@
 		<span
 			class="relative text-lightest-slate after:absolute after:left-full after:top-1/2 after:ml-4 after:h-[1px] after:w-[150px] after:bg-lightest-navy after:lg:w-[300px]"
 		>
-			Contact
+			{data.title}
 		</span>
 	</h2>
 
 	<div class="items-start justify-between lg:flex lg:space-x-16">
 		<div class="lg:w-3/5">
 			<p class="mb-4 text-lg">
-				Dropping a line to say g’day, ask for my resume or see if we can build something amazing
-				together? I’d love to hear from you!
+				{data.description}
 			</p>
 
 			<p class="mb-4 text-lg">
-				Fill in your info in the form below and I look forward to hearing from you!
+				{data.formTitle}
 			</p>
 
 			<div class="space-y-6">
@@ -157,17 +157,19 @@
 
 				<button
 					class="btn-primary custom-transition px-6 text-base hover:bg-green-tint"
-					on:click={sendEmail}>Send Email</button
+					on:click={sendEmail}
 				>
+					{data.buttonLabel}
+				</button>
 			</div>
 		</div>
 
 		<div class="mt-12 flex justify-center lg:mt-0 lg:w-2/5">
 			<div class="rounded">
-				<p class="mb-4 text-lg">Feeling social? Find me on these online spaces too!</p>
+				<p class="mb-4 text-lg">{data.socialMediaTitle}</p>
 
 				<div class="flex items-start justify-start space-x-4">
-					{#each socialMedia as item}
+					{#each data.socialMedia as item}
 						<a href={item.link} target="_blank" class="flex h-6 w-6 items-center justify-center">
 							<svelte:component
 								this={item.icon}
