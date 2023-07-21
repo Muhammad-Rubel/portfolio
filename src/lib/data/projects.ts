@@ -1,6 +1,7 @@
 import Aaronnbrock from '$lib/images/porjects/aaronbrock.com.png';
 import Bonabotse from '$lib/images/porjects/bonabotse.co.za.png';
-import DrBerg from '$lib/images/porjects/drberg.com.png';
+import Drberg from '$lib/images/porjects/drberg.com.png';
+import Syself from '$lib/images/porjects/syself.com.png';
 
 export const projects = [
 	{
@@ -38,9 +39,23 @@ export const projects = [
 			"Dr. Berg's Health Products and Keto Diet Website is a comprehensive platform that offers a wide range of health products, valuable insights on the keto diet, and information on various health issues. Developed with SvelteKit, Typescript, and Tailwind CSS, the website delivers a seamless and informative user experience. The project's primary objective was to create an all-encompassing website that provides users with a holistic approach to health and wellness. The Dr. Berg's Health Products and Keto Diet Website exemplifies your expertise in creating an encompassing and dynamic web platform. By skillfully integrating SvelteKit, Typescript, Tailwind CSS, and APIs, you've crafted a website that provides valuable health insights, a diverse range of products, and interactive BMI calculators to support users' health and wellness journeys. This project showcases your dedication to building user-friendly and informative web experiences that contribute to a healthier lifestyle",
 		image: {
 			alt: 'Dr. Berg Website',
-			src: DrBerg
+			src: Drberg
 		},
 		url: 'https://www.drberg.com',
+		github: '',
+		madeAt: 'SR Web Studio',
+		technologies: ['SvelteKit', 'TailwindCSS', 'TypeScript']
+	},
+	{
+		tag: 'Featured',
+		name: 'Syself Website',
+		description:
+			"Syself is the leading modern European cloud infrastructure service provider, offering cutting-edge solutions to businesses and individuals. The Syself website, developed with SvelteKit, Typescript, and Tailwind CSS, showcases a state-of-the-art user interface that highlights the company's commitment to excellence and innovation in cloud services. With a focus on modern UI design, responsiveness, and a powerful calculator tool, the website provides a seamless and informative experience to users seeking advanced cloud solutions.",
+		image: {
+			alt: 'Syself Website',
+			src: Syself
+		},
+		url: 'https://syself.com',
 		github: '',
 		madeAt: 'Fiverr',
 		technologies: ['SvelteKit', 'TailwindCSS', 'TypeScript']

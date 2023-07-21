@@ -24,7 +24,7 @@ module.exports = {
 			}
 		}
 	},
-	plugins: []
+	plugins: [require('@tailwindcss/line-clamp')]
 };
 
 // --font-sans: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;

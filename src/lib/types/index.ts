@@ -42,7 +42,7 @@ export interface IExperienceItem {
 
 export interface IFeaturedProjects {
 	title: string;
-	projects: IProject[];
+	projects?: IProject[];
 }
 
 export interface IProject {
@@ -52,13 +52,15 @@ export interface IProject {
 	image: IImage;
 	url: string;
 	github: string;
+	madeAt?: string;
+	workedOn?: string[]; // Frontend, Backend, API integration, CMS etc.
 	technologies: string[];
 }
 
 export interface INoteworthyProjects {
 	title: string;
 	viewAchiveLink: ILink;
-	projects: IProject[];
+	projects?: IProject[];
 }
 
 export interface IContact {

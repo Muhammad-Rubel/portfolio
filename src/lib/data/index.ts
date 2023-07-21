@@ -130,7 +130,7 @@ export const homepageData: IHomepageData = {
 				},
 				url: 'https://aaronnbrock.com',
 				github: '',
-				// madeAt: 'Fiverr',
+				madeAt: 'Fiverr',
 				technologies: ['SvelteKit', 'TailwindCSS', 'TypeScript', 'Blob SVGs']
 			},
 			{
@@ -144,7 +144,7 @@ export const homepageData: IHomepageData = {
 				},
 				url: 'https://bonabotse.co.za',
 				github: '',
-				// madeAt: 'Fiverr',
+				madeAt: 'Fiverr',
 				technologies: ['SvelteKit', 'TailwindCSS', 'TypeScript']
 			},
 			{
@@ -158,7 +158,7 @@ export const homepageData: IHomepageData = {
 				},
 				url: 'https://www.drberg.com',
 				github: '',
-				// madeAt: 'Fiverr',
+				madeAt: 'Fiverr',
 				technologies: ['SvelteKit', 'TailwindCSS', 'TypeScript']
 			},
 			{
@@ -172,6 +172,7 @@ export const homepageData: IHomepageData = {
 				},
 				url: 'test.com',
 				github: 'github.com',
+				madeAt: '',
 				technologies: ['VS Code', 'Sublime Text', 'Atom', 'iTerm2', 'Hyper']
 			},
 			{
@@ -185,6 +186,7 @@ export const homepageData: IHomepageData = {
 				},
 				url: 'test.com',
 				github: 'github.com',
+				madeAt: '',
 				technologies: ['React', 'Styled Components', 'Express', 'Spotify API', 'Heroku']
 			},
 			{
@@ -198,6 +200,7 @@ export const homepageData: IHomepageData = {
 				},
 				url: 'test.com',
 				github: 'github.com',
+				madeAt: '',
 				technologies: ['React', 'Express', 'Spotify API', 'Styled Components']
 			}
 		]

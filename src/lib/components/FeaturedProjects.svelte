@@ -4,6 +4,8 @@
 	import ExternalLink from './Svg/ExternalLink.svelte';
 	import Github from './Svg/Github.svelte';
 
+	import { projects } from '$lib/data/projects';
+
 	export let data: IFeaturedProjects;
 </script>
 
@@ -23,7 +25,7 @@
 	<!-- projects -->
 	<div class="flex items-start justify-start space-x-4">
 		<div class=" mb-8 space-y-8 md:space-y-16">
-			{#each data.projects as item, i}
+			{#each projects.filter((item) => item.tag === 'Featured') as item, i}
 				<div class="relative w-full shadow-xl lg:shadow-none">
 					<div
 						class={'absolute top-0 left-0 z-[-1] h-full w-full justify-center lg:flex lg:w-[55%] ' +
@@ -42,8 +44,11 @@
 					>
 						<p class="mb-2.5 font-mono text-[13px] text-green">{item.tag}</p>
 						<h3 class="mb-2.5 text-[clamp(24px,_5vw,_28px)] text-white lg:mb-5">{item.name}</h3>
+						<p class="mb-2.5 font-mono text-[13px]">Made at: {item.madeAt}</p>
 						<p class="rounded py-5 text-base text-light-slate lg:bg-light-navy lg:p-6">
-							{item.description}
+							<span class="line-clamp-6">
+								{item.description}
+							</span>
 						</p>
 
 						<ul
