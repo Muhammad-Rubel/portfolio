@@ -27,6 +27,7 @@
 			<ul class="mt-5 grid grid-cols-2 gap-2">
 				{#each data.expertiseAreas as item}
 					<li>
+						<!-- {item.url} -->
 						<a
 							href={item.url}
 							target="_blank"

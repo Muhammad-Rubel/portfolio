@@ -68,6 +68,7 @@
 							class={'mt-5 flex items-center justify-start space-x-6 ' +
 								((i + 1) % 2 === 0 ? '' : 'lg:justify-end')}
 						>
+							<!-- {item.github} -->
 							<a
 								href={item.github}
 								aria-label="link to github"
@@ -76,6 +77,7 @@
 								<Github className="h-5 w-5" />
 							</a>
 
+							<!-- {item.url} -->
 							<a
 								href={item.url}
 								aria-label="link to {item.name}"

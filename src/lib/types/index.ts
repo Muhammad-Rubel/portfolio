@@ -60,7 +60,7 @@ export interface IProject {
 export interface INoteworthyProjects {
 	title: string;
 	viewAchiveLink: ILink;
-	projects?: IProject[];
+	projects: IProject[];
 }
 
 export interface IContact {

@@ -23,7 +23,7 @@ export const homepageData: IHomepageData = {
 			'I’m a software engineer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I’m focused on building accessible, human-centered products at Upstatement.',
 		myWorkbtn: {
 			label: 'Check out my work',
-			url: '/#work'
+			url: '#work'
 		}
 	},
 	about: {
@@ -209,7 +209,7 @@ export const homepageData: IHomepageData = {
 		title: 'Other Noteworthy Projects',
 		viewAchiveLink: {
 			label: 'View the archive',
-			url: '/#work'
+			url: '#work'
 		},
 		projects: [
 			{
@@ -222,7 +222,7 @@ export const homepageData: IHomepageData = {
 					src: Image1
 				},
 				url: 'test',
-				github: 'test',
+				github: 'github.com',
 				technologies: ['VS Code', 'Sublime Text', 'Atom', 'iTerm2', 'Hyper']
 			},
 			{
@@ -235,7 +235,7 @@ export const homepageData: IHomepageData = {
 					src: Image2
 				},
 				url: 'test',
-				github: 'test',
+				github: 'github.com',
 				technologies: ['React', 'Styled Components', 'Express', 'Spotify API', 'Heroku']
 			},
 			{
@@ -248,7 +248,7 @@ export const homepageData: IHomepageData = {
 					src: Image3
 				},
 				url: 'test',
-				github: 'test',
+				github: 'github.com',
 				technologies: ['React', 'Express', 'Spotify API', 'Styled Components']
 			},
 			{
@@ -261,7 +261,7 @@ export const homepageData: IHomepageData = {
 					src: Image1
 				},
 				url: 'test',
-				github: 'test',
+				github: 'github.com',
 				technologies: ['VS Code', 'Sublime Text', 'Atom', 'iTerm2', 'Hyper']
 			},
 			{
@@ -274,7 +274,7 @@ export const homepageData: IHomepageData = {
 					src: Image2
 				},
 				url: 'test',
-				github: 'test',
+				github: 'github.com',
 				technologies: ['React', 'Styled Components', 'Express', 'Spotify API', 'Heroku']
 			},
 			{
@@ -287,7 +287,7 @@ export const homepageData: IHomepageData = {
 					src: Image3
 				},
 				url: 'test',
-				github: 'test',
+				github: 'github.com',
 				technologies: ['React', 'Express', 'Spotify API', 'Styled Components']
 			}
 		]
@@ -333,19 +333,19 @@ export const layoutData: ILayoutData = {
 		navItems: [
 			{
 				label: 'About',
-				url: '/#about'
+				url: '#about'
 			},
 			{
 				label: 'Experience',
-				url: '/#experience'
+				url: '#experience'
 			},
 			{
 				label: 'Work',
-				url: '/#work'
+				url: '#work'
 			},
 			{
 				label: 'contact',
-				url: '/#contact'
+				url: '#contact'
 			},
 			{
 				label: 'Resume',

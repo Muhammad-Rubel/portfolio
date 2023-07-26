@@ -39,6 +39,7 @@
 		<div class="py-2.5 px-1 md:py-0">
 			<h3 class="mb-0.5 text-[22px] font-medium text-lightest-slate">
 				{data?.experiences?.[activeExperience]?.position}
+				<!-- {data?.experiences?.[activeExperience]?.website} -->
 				<a
 					href={data?.experiences?.[activeExperience]?.website}
 					target="_blank"

@@ -132,6 +132,7 @@
 
 				<div class="flex items-start justify-start space-x-4">
 					{#each data.socialMedia as item}
+						<!--{item.link}  -->
 						<a
 							href={item.link}
 							target="_blank"
