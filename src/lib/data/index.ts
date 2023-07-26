@@ -171,7 +171,7 @@ export const homepageData: IHomepageData = {
 					src: Image1
 				},
 				url: 'test.com',
-				github: 'github.com',
+				github: 'https://github.com/Muhammad-Rubel',
 				madeAt: '',
 				technologies: ['VS Code', 'Sublime Text', 'Atom', 'iTerm2', 'Hyper']
 			},
@@ -185,7 +185,7 @@ export const homepageData: IHomepageData = {
 					src: Image2
 				},
 				url: 'test.com',
-				github: 'github.com',
+				github: 'https://github.com/Muhammad-Rubel',
 				madeAt: '',
 				technologies: ['React', 'Styled Components', 'Express', 'Spotify API', 'Heroku']
 			},
@@ -199,7 +199,7 @@ export const homepageData: IHomepageData = {
 					src: Image3
 				},
 				url: 'test.com',
-				github: 'github.com',
+				github: 'https://github.com/Muhammad-Rubel',
 				madeAt: '',
 				technologies: ['React', 'Express', 'Spotify API', 'Styled Components']
 			}
@@ -221,8 +221,8 @@ export const homepageData: IHomepageData = {
 					alt: 'Halcyon Theme for VS Code, Sublime Text, Atom, iTerm, and more.',
 					src: Image1
 				},
-				url: 'test',
-				github: 'github.com',
+				url: 'https://github.com/Muhammad-Rubel',
+				github: 'https://github.com/Muhammad-Rubel',
 				technologies: ['VS Code', 'Sublime Text', 'Atom', 'iTerm2', 'Hyper']
 			},
 			{
@@ -234,8 +234,8 @@ export const homepageData: IHomepageData = {
 					alt: 'Spotify Profile',
 					src: Image2
 				},
-				url: 'test',
-				github: 'github.com',
+				url: 'https://github.com/Muhammad-Rubel',
+				github: 'https://github.com/Muhammad-Rubel',
 				technologies: ['React', 'Styled Components', 'Express', 'Spotify API', 'Heroku']
 			},
 			{
@@ -247,8 +247,8 @@ export const homepageData: IHomepageData = {
 					alt: 'Build a Spotify Connected App',
 					src: Image3
 				},
-				url: 'test',
-				github: 'github.com',
+				url: 'https://github.com/Muhammad-Rubel',
+				github: 'https://github.com/Muhammad-Rubel',
 				technologies: ['React', 'Express', 'Spotify API', 'Styled Components']
 			},
 			{
@@ -260,8 +260,8 @@ export const homepageData: IHomepageData = {
 					alt: 'Halcyon Theme for VS Code, Sublime Text, Atom, iTerm, and more.',
 					src: Image1
 				},
-				url: 'test',
-				github: 'github.com',
+				url: 'https://github.com/Muhammad-Rubel',
+				github: 'https://github.com/Muhammad-Rubel',
 				technologies: ['VS Code', 'Sublime Text', 'Atom', 'iTerm2', 'Hyper']
 			},
 			{
@@ -273,8 +273,8 @@ export const homepageData: IHomepageData = {
 					alt: 'Spotify Profile',
 					src: Image2
 				},
-				url: 'test',
-				github: 'github.com',
+				url: 'https://github.com/Muhammad-Rubel',
+				github: 'https://github.com/Muhammad-Rubel',
 				technologies: ['React', 'Styled Components', 'Express', 'Spotify API', 'Heroku']
 			},
 			{
@@ -286,8 +286,8 @@ export const homepageData: IHomepageData = {
 					alt: 'Build a Spotify Connected App',
 					src: Image3
 				},
-				url: 'test',
-				github: 'github.com',
+				url: 'https://github.com/Muhammad-Rubel',
+				github: 'https://github.com/Muhammad-Rubel',
 				technologies: ['React', 'Express', 'Spotify API', 'Styled Components']
 			}
 		]

@@ -34,11 +34,11 @@
 
 					<div class="flex items-center justify-end space-x-4">
 						<!-- item.github -->
-						<a href="" class="custom-transition text-light-slate hover:text-green">
+						<a href={item.github} class="custom-transition text-light-slate hover:text-green">
 							<Github className="h-5 w-5" />
 						</a>
 						<!-- {item.url} -->
-						<a href="" class="custom-transition text-light-slate hover:text-green">
+						<a href={item.url} class="custom-transition text-light-slate hover:text-green">
 							<ExternalLink className="h-5 w-5" />
 						</a>
 					</div>
@@ -48,7 +48,7 @@
 					class="custom-transition mb-2.5 text-[22px] font-semibold text-light-slate hover:text-green"
 				>
 					<!-- {item.url} -->
-					<a href="">{item.name}</a>
+					<a href={item.url}>{item.name}</a>
 				</h3>
 
 				<p class="font-light-slate text-base">{item.description}</p>

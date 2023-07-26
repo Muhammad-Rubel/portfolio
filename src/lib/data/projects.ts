@@ -14,7 +14,7 @@ export const projects = [
 			src: Aaronnbrock
 		},
 		url: 'https://aaronnbrock.com',
-		github: '',
+		github: 'https://github.com/Muhammad-Rubel',
 		madeAt: 'Fiverr',
 		technologies: ['SvelteKit', 'TailwindCSS', 'TypeScript', 'Blob SVGs']
 	},
@@ -28,7 +28,7 @@ export const projects = [
 			src: Bonabotse
 		},
 		url: 'https://bonabotse.co.za',
-		github: '',
+		github: 'https://github.com/Muhammad-Rubel',
 		madeAt: 'Fiverr',
 		technologies: ['SvelteKit', 'TailwindCSS', 'TypeScript']
 	},
@@ -42,7 +42,7 @@ export const projects = [
 			src: Drberg
 		},
 		url: 'https://www.drberg.com',
-		github: '',
+		github: 'https://github.com/Muhammad-Rubel',
 		madeAt: 'SR Web Studio',
 		technologies: ['SvelteKit', 'TailwindCSS', 'TypeScript']
 	},
@@ -56,7 +56,7 @@ export const projects = [
 			src: Syself
 		},
 		url: 'https://syself.com',
-		github: '',
+		github: 'https://github.com/Muhammad-Rubel',
 		madeAt: 'Fiverr',
 		technologies: ['SvelteKit', 'TailwindCSS', 'TypeScript']
 	}
