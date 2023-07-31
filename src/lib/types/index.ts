@@ -17,7 +17,7 @@ export interface IHero {
 	name: string;
 	subtitle: string;
 	description: string;
-	myWorkbtn: ILink;
+	email: ILink;
 }
 
 export interface IAbout {

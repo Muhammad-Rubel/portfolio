@@ -11,13 +11,12 @@
 		<h1 class="big-heading font-semibold leading-[1.25] text-slate">{data.subtitle}</h1>
 		<p class="mt-5 max-w-[540px] text-lg leading-[1.5]">{data.description}</p>
 
-		<!-- href={data.myWorkbtn.url} -->
 		<a
-			href={data?.myWorkbtn?.url || ''}
-			aria-label="link to {data?.myWorkbtn?.label}"
+			href={'mailto:' + data?.email?.url || ''}
+			aria-label="Email to {data?.email?.label}"
 			class="btn-primary mt-12 inline-block"
 		>
-			{data?.myWorkbtn?.label}
+			&#9993; {data?.email?.label}
 		</a>
 	</div>
 </section>
