@@ -20,7 +20,7 @@ export const homepageData: IHomepageData = {
 		name: 'Mohammad Robel.',
 		subtitle: 'I build things for the web.',
 		description:
-			'I’m a software engineer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I’m focused on building accessible, human-centered products at Upstatement.',
+			'I’m a Web Developer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I’m focused on building accessible, human-centered products at Rebelslab B.V.',
 		email: {
 			label: 'rubel.contact@gmail.com',
 			url: 'rubel.contact@gmail.com'
@@ -33,9 +33,9 @@ export const homepageData: IHomepageData = {
 			src: ProfilePic
 		},
 		description: [
-			'Hello! My name is Mohammad Robel and I enjoy creating things that live on the internet. My interest in web development started back in 2012 when I decided to try editing custom Tumblr themes — turns out hacking together a custom reblog button taught me a lot about HTML & CSS!',
-			'Fast-forward to today, and I’ve had the privilege of working at an advertising agency, a start-up, a huge corporation, and a student-led design studio. My main focus these days is building accessible, inclusive products and digital experiences at Upstatement for a variety of clients.',
-			'I also recently launched a course that covers everything you need to build a web app with the Spotify API using Node & React.',
+			'Hello! My name is Mohammad Robel and I enjoy creating things that live on the internet. My interest in web development started back in 2018',
+			'Fast-forward to today, and I’ve had the privilege of working at a software development agency, a start-up. My main focus these days is building accessible, inclusive products and digital experiences at Rebelslab B.V. for a variety of clients.',
+			
 			'Here are a few technologies I’ve been working with recently:'
 		],
 		expertiseAreas: [
@@ -99,7 +99,7 @@ export const homepageData: IHomepageData = {
 				date: 'Nov 2022 - Present',
 				workingAreas: [
 					'Write modern, performant, maintainable code for a diverse array of client and internal projects',
-					'Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, TypeScript, Gatsby, React, Craft, WordPress, Prismic, and Netlify',
+					'Work with a variety of different platforms, frameworks, and content management systems such as JavaScript, TypeScript, Vue, React, Svelte, Nuxt.js, Next.js, SvelteKit, Strapi'',
 					'Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis'
 				]
 			},
