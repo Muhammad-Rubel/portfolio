@@ -550,6 +550,9 @@ input:focus,
 .top-full {
 	top: 100%;
 }
+.z-0 {
+	z-index: 0;
+}
 .z-40 {
 	z-index: 40;
 }
@@ -681,6 +684,9 @@ input:focus,
 .max-w-\[700px\] {
 	max-width: 700px;
 }
+.grow {
+	flex-grow: 1;
+}
 .transform {
 	transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
@@ -788,6 +794,9 @@ input:focus,
 .bg-navy {
 	--tw-bg-opacity: 1;
 	background-color: rgb(10 25 47 / var(--tw-bg-opacity));
+}
+.bg-opacity-30 {
+	--tw-bg-opacity: 0.3;
 }
 .bg-opacity-90 {
 	--tw-bg-opacity: 0.9;
@@ -983,6 +992,9 @@ input:focus,
 .underline-offset-2 {
 	text-underline-offset: 2px;
 }
+.bg-blend-color-dodge {
+	background-blend-mode: color-dodge;
+}
 .shadow-xl {
 	--tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
 	--tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
@@ -1007,27 +1019,6 @@ input:focus,
 	display: -webkit-box;
 	-webkit-box-orient: vertical;
 	-webkit-line-clamp: 6;
-}
-.last-of-type\:btn-primary:last-of-type {
-	transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
-	transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
-	transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
-	transition-duration: 300ms;
-	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-	border-radius: 0.25rem;
-	border-width: 1px;
-	--tw-border-opacity: 1;
-	border-color: rgb(100 255 218 / var(--tw-border-opacity));
-	background-color: transparent;
-	padding-left: 1rem;
-	padding-right: 1rem;
-	padding-top: 0.75rem;
-	padding-bottom: 0.75rem;
-	--tw-text-opacity: 1;
-	color: rgb(100 255 218 / var(--tw-text-opacity));
-}
-.last-of-type\:btn-primary:last-of-type:hover {
-	background-color: rgba(100, 255, 218, 0.1);
 }
 .after\:absolute::after {
 	content: var(--tw-content);
@@ -1061,9 +1052,6 @@ input:focus,
 	content: var(--tw-content);
 	--tw-bg-opacity: 1;
 	background-color: rgb(35 53 84 / var(--tw-bg-opacity));
-}
-.last-of-type\:ml-4:last-of-type {
-	margin-left: 1rem;
 }
 .last-of-type\:mr-0:last-of-type {
 	margin-right: 0px;
@@ -1194,10 +1182,6 @@ input:focus,
 	}
 	.lg\:bg-transparent {
 		background-color: transparent;
-	}
-	.lg\:object-contain {
-		-o-object-fit: contain;
-		   object-fit: contain;
 	}
 	.lg\:p-6 {
 		padding: 1.5rem;
