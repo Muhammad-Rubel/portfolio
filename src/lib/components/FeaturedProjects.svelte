@@ -34,8 +34,10 @@
 						<img
 							src={item.image.src}
 							alt={item.image.alt}
-							class="h-full w-full object-cover object-center lg:h-auto lg:object-contain"
+							class="h-full w-full object-cover object-center bg-blend-color-dodge lg:h-auto"
 						/>
+
+						<span class="absolute top-0 left-0 z-0 h-full w-full bg-navy bg-opacity-30" />
 					</div>
 
 					<div

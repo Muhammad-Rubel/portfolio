@@ -16,11 +16,10 @@
 		<!-- nav items -->
 		<nav class="hidden items-center justify-end lg:flex">
 			{#each data.navItems as item, i}
-				<!-- {item.url} -->
 				<a
 					href=""
 					aria-label="link to {item.label}"
-					class="last-of-type:btn-primary custom-transition group p-2.5 text-base last-of-type:ml-4 hover:text-green"
+					class="custom-transition group p-2.5 text-base hover:text-green"
 				>
 					<span class="text-sm text-green">0{i + 1}.</span>
 					<span>{item.label}</span>

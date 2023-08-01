@@ -33,8 +33,13 @@ export const homepageData: IHomepageData = {
 			src: ProfilePic
 		},
 		description: [
-			'Hello! My name is Mohammad Robel and I enjoy creating things that live on the internet. My interest in web development started back in 2018',
-			'Fast-forward to today, and I’ve had the privilege of working at a software development agency, a start-up. My main focus these days is building accessible, inclusive products and digital experiences at Rebelslab B.V. for a variety of clients.',
+			// 'Hello! My name is Mohammad Robel and I enjoy creating things that live on the internet. My interest in web development started back in 2018',
+			// 'Fast-forward to today, and I’ve had the privilege of working at a software development agency, a start-up. My main focus these days is building accessible, inclusive products and digital experiences at Rebelslab B.V. for a variety of clients.',
+			"👋 Hi there! I'm Mohammad Robel, a passionate and creative frontend web developer with a love for crafting immersive digital experiences. With a keen eye for detail and a deep understanding of modern web technologies, I specialize in transforming ideas into visually stunning and user-friendly websites.",
+
+			"I thrive on the excitement of staying up-to-date with the latest industry trends and best practices, always seeking to deliver top-notch solutions that exceed expectations. Whether it's crafting pixel-perfect designs or optimizing website performance, I'm driven by a dedication to creating seamless, responsive, and accessible web solutions.",
+
+			"When I'm not coding, you can find me exploring new design trends, learning about emerging frontend frameworks, or collaborating with fellow developers on exciting projects. Let's connect and create something amazing together!",
 
 			'Here are a few technologies I’ve been working with recently:'
 		],
@@ -100,18 +105,41 @@ export const homepageData: IHomepageData = {
 				workingAreas: [
 					'Write modern, performant, maintainable code for a diverse array of client and internal projects',
 					'Work with a variety of different platforms, frameworks, and content management systems such as JavaScript, TypeScript, Vue, React, Svelte, Nuxt.js, Next.js, SvelteKit, Strapi',
-					'Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis'
+					'Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis',
+					'Privileged of utilizing a wide range of cutting-edge technologies to create exceptional digital solutions.',
+
+					// 'At Rebelslab B.V., we foster a collaborative and forward-thinking culture that encourages creativity and continuous learning. I am grateful to be part of a team of talented and passionate colleagues who share a common vision for delivering excellence in web development.',
+
+					'Working with JavaScript, TypeScript, Vue, React, Svelte, Nuxt.js, Next.js, SvelteKit, and Strapi, among other technologies that empowered me to build captivating and feature-rich websites and web applications that cater to the unique needs of our clients.',
+
+					'The collaborative spirit within the company has taught me the value of effective teamwork, communication, and problem-solving. Together, we tackle challenging projects, exchanging ideas and knowledge to create solutions that push the boundaries of frontend web development.'
+
+					// 'One of the most rewarding aspects of working at Rebelslab B.V. is the positive impact our projects have on users. From crafting seamless user interfaces to optimizing website performance, we take pride in providing engaging and user-friendly experiences that leave a lasting impression.',
+
+					// 'The growth opportunities offered by Rebelslab B.V. have been instrumental in refining my skills as a frontend web developer. By staying at the forefront of technology trends and design practices, I continuously strive to elevate the quality and efficiency of our projects.',
+
+					// "I genuinely cherish the relationships I've built with my colleagues, who not only inspire me professionally but also create a supportive and enjoyable work atmosphere. Their mentorship and camaraderie have played a significant role in my personal and career development.",
+
+					// 'As I continue my journey with Rebelslab B.V., I am excited about the possibilities that lie ahead. I look forward to taking on new challenges, contributing to groundbreaking projects, and collaborating with incredible minds to create exceptional web experiences.'
 				]
 			},
 			{
 				company: 'SR Web Studio',
-				website: 'https://https://srwebstudio.com',
+				website: 'https://srwebstudio.com',
 				position: 'Web Developer',
 				date: 'Jan 2020 - Present',
 				workingAreas: [
-					'Worked with a team of three designers to build a marketing website and e-commerce platform for blistabloc, an ambitious startup originating from Northeastern',
-					'Helped solidify a brand direction for blistabloc that spans both packaging and web',
-					'Interfaced with clients on a weekly basis, providing technological expertise'
+					'As a Frontend Web Developer at SR Web Studio, I have had the incredible opportunity to contribute to the creation of stunning websites and web applications using a diverse set of cutting-edge technologies. My role at SR Web Studio has allowed me to leverage my skills and expertise in JavaScript, TypeScript, Vue, React, Svelte, Nuxt.js, Next.js, SvelteKit, and Strapi to craft exceptional digital experiences.',
+
+					"Working in a collaborative and innovative environment, I take pride in translating design concepts into fully functional and visually appealing user interfaces. From dynamic single-page applications to content-rich websites, I've honed my abilities to meet the unique requirements of each project and deliver top-notch results.",
+
+					"Throughout my time at SR Web Studio, I've been deeply involved in projects that challenge and inspire me. By staying up-to-date with the latest frontend technologies and design trends, I strive to provide seamless user experiences that exceed expectations.",
+
+					"Collaborating with talented designers, developers, and content creators, I've learned the importance of effective teamwork and the value of combining creativity with technical excellence. I am grateful for the opportunities to grow both professionally and personally in this dynamic and fast-paced environment.",
+
+					"At SR Web Studio, I've not only honed my technical skills but also cultivated a passion for creating captivating digital solutions that leave a lasting impact on users. It has been an enriching journey, and I'm excited to continue exploring new possibilities in frontend web development.",
+
+					"Let's connect and explore how my skills and experience can bring value to your web projects. I'm eager to embark on new challenges and collaborate on exciting opportunities to create exceptional web experiences together."
 				]
 			}
 		]
@@ -346,11 +374,11 @@ export const layoutData: ILayoutData = {
 			{
 				label: 'contact',
 				url: '#contact'
-			},
-			{
-				label: 'Resume',
-				url: ''
 			}
+			// {
+			// 	label: 'Resume',
+			// 	url: ''
+			// }
 		]
 	},
 	footer: 'Designed & coded with 💙 by Mohammad Robel'
