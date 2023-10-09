@@ -535,6 +535,9 @@ input:focus,
 .left-0 {
 	left: 0px;
 }
+.left-1\/2 {
+	left: 50%;
+}
 .left-5 {
 	left: 1.25rem;
 }
@@ -543,6 +546,9 @@ input:focus,
 }
 .top-0 {
 	top: 0px;
+}
+.top-1\/2 {
+	top: 50%;
 }
 .top-5 {
 	top: 1.25rem;
@@ -613,6 +619,9 @@ input:focus,
 }
 .mt-6 {
 	margin-top: 1.5rem;
+}
+.mt-\[1px\] {
+	margin-top: 1px;
 }
 .inline-block {
 	display: inline-block;
@@ -686,6 +695,14 @@ input:focus,
 }
 .grow {
 	flex-grow: 1;
+}
+.-translate-x-1\/2 {
+	--tw-translate-x: -50%;
+	transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.-translate-y-1\/2 {
+	--tw-translate-y: -50%;
+	transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 .transform {
 	transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
