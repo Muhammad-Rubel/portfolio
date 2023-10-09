@@ -42,6 +42,13 @@
 			};
 
 			// send email to rubel.contact@gmail.com
+			// fetch('https://formspree.io/f/maylqzqk', {
+			//   method: 'POST',
+			//   headers: {
+			//     'Content-Type': 'application/json'
+			//   },
+			//   body: JSON.stringify(data)
+			// });
 
 			name = '';
 			email = '';
@@ -72,7 +79,7 @@
 				{data.formTitle}
 			</p>
 
-			<div class="space-y-6">
+			<!-- <div class="space-y-6">
 				<div class="relative">
 					<input
 						type="text"
@@ -122,7 +129,15 @@
 				>
 					{data.buttonLabel}
 				</button>
-			</div>
+			</div> -->
+
+			<a
+				href={'mailto:' + data?.email?.url || ''}
+				aria-label="Email to {data?.email?.label}"
+				class="btn-primary mt-12 inline-block"
+			>
+				&#9993; {data?.email?.label}
+			</a>
 		</div>
 
 		<!-- social media -->

@@ -70,6 +70,7 @@ export interface IContact {
 	socialMediaTitle: string;
 	socialMedia: ISocialMediaLink[];
 	buttonLabel: string;
+	email: ILink;
 }
 
 export interface ISocialMediaLink {

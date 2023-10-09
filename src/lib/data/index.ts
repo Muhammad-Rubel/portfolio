@@ -328,31 +328,36 @@ export const homepageData: IHomepageData = {
 		socialMediaTitle: 'Feeling social? Find me on these online spaces too!',
 		socialMedia: [
 			{
-				link: 'https://www.facebook.com/robel.mengistu.9',
-				icon: Facebook
-			},
-			{
-				link: '',
+				link: 'https://github.com/Muhammad-Rubel',
 				icon: Github
 			},
 			{
-				link: '',
-				icon: Instagram
-			},
-			{
-				link: '',
+				link: 'https://www.linkedin.com/in/mohammad-rubel',
 				icon: Linkedin
 			},
 			{
-				link: '',
-				icon: Twitter
-			},
-			{
-				link: '',
-				icon: Whatsapp
+				link: 'https://www.facebook.com/md.robel11',
+				icon: Facebook
 			}
+			// {
+			// 	link: '',
+			// 	icon: Instagram
+			// },
+
+			// {
+			// 	link: '',
+			// 	icon: Twitter
+			// },
+			// {
+			// 	link: '',
+			// 	icon: Whatsapp
+			// }
 		],
-		buttonLabel: 'Send Email'
+		buttonLabel: 'Send Email',
+		email: {
+			label: 'rubel.contact@gmail.com',
+			url: 'rubel.contact@gmail.com'
+		}
 	}
 };
 
