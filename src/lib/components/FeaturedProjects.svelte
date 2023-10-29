@@ -74,6 +74,7 @@
 							<a
 								href={item.github}
 								aria-label="link to github"
+								target="_blank"
 								class="custom-transition text-light-slate hover:text-green"
 							>
 								<Github className="h-5 w-5" />
@@ -83,6 +84,7 @@
 							<a
 								href={item.url}
 								aria-label="link to {item.name}"
+								target="_blank"
 								class="custom-transition text-light-slate hover:text-green"
 							>
 								<ExternalLink className="h-5 w-5" />
