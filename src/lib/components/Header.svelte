@@ -18,7 +18,7 @@
 		</a>
 
 		<!-- nav items -->
-		<nav class="hidden items-center justify-end lg:flex">
+		<!-- <nav class="hidden items-center justify-end lg:flex">
 			{#each data.navItems as item, i}
 				<a
 					href=""
@@ -29,11 +29,11 @@
 					<span>{item.label}</span>
 				</a>
 			{/each}
-		</nav>
+		</nav> -->
 
 		<!-- mobile menu button -->
-		<button class="p-1 lg:hidden">
+		<!-- <button class="p-1 lg:hidden">
 			<Menu className="h-8 w-8 text-green" />
-		</button>
+		</button> -->
 	</div>
 </header>

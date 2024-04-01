@@ -6,6 +6,6 @@
 	import { layoutData } from '$lib/data';
 </script>
 
-<Header data={layoutData.header} />
+<!-- <Header data={layoutData.header} /> -->
 <slot />
 <Footer data={layoutData.footer} />
