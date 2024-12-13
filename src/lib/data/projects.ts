@@ -3,6 +3,7 @@ import Bonabotse from '$lib/images/porjects/bonabotse.co.za.png';
 import Drberg from '$lib/images/porjects/drberg.com.png';
 import Syself from '$lib/images/porjects/syself.com.png';
 import Visitpatagonia from '$lib/images/porjects/visitpatagonia.png';
+import CentrumHecht from '$lib/images/porjects/centrumhecht.png';
 
 export const projects = [
 	{
@@ -77,6 +78,20 @@ export const projects = [
 		github: 'https://github.com/Muhammad-Rubel',
 		madeAt: 'Fiverr',
 		technologies: ['SvelteKit', 'TailwindCSS', 'TypeScript']
+	},
+	{
+		tag: 'Featured',
+		name: 'Centrum Hecht',
+		description:
+			'Centrum Hecht, a training institute based in Leiden, Netherlands. Centrum Hecht specializes in attachment-promoting treatments and trauma therapy. They offer a range of courses and workshops focused on Mentalization-Based Therapy (MBT) for children, adolescents, and families, emphasizing connection and trust. Built with Nuxt 3, Typescript, Tailwind CSS, and Strapi as CMS. User can register for courses and workshops, and make their payments online. It has a powerful admin panel to manage courses, workshops, and users.',
+		image: {
+			alt: 'Centrum Hecht Website',
+			src: CentrumHecht
+		},
+		url: 'https://centrumhechtopleidingen.nl/',
+		github: 'https://github.com/Muhammad-Rubel',
+		madeAt: 'Rebelslab',
+		technologies: ['Nuxt 3', 'TailwindCSS', 'TypeScript', 'Strapi']
 	}
 ];
 
