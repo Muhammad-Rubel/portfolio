@@ -1,10 +1,9 @@
 <script lang="ts">
 	import type { IFeaturedProjects } from '$lib/types';
 
-	import ExternalLink from './Svg/ExternalLink.svelte';
 	import Github from './Svg/Github.svelte';
-
 	import { projects } from '$lib/data/projects';
+	import ExternalLink from './Svg/ExternalLink.svelte';
 
 	export let data: IFeaturedProjects;
 </script>
@@ -24,7 +23,7 @@
 
 	<!-- projects -->
 	<div class="flex items-start justify-start space-x-4">
-		<div class=" mb-8 space-y-8 md:space-y-16">
+		<div class=" mb-8 space-y-8 md:space-y-20">
 			{#each projects.filter((item) => item.tag === 'Featured') as item, i}
 				<div class="relative w-full shadow-xl lg:shadow-none">
 					<div

@@ -4,6 +4,11 @@ import Drberg from '$lib/images/porjects/drberg.com.png';
 import Syself from '$lib/images/porjects/syself.com.png';
 import Visitpatagonia from '$lib/images/porjects/visitpatagonia.png';
 import CentrumHecht from '$lib/images/porjects/centrumhecht.png';
+import H2Fuel from '$lib/images/porjects/h2-fuel.nl.png';
+import Jilster from '$lib/images/porjects/Jilster.app.png';
+import Rebelslab from '$lib/images/porjects/rebelslab.com.png';
+import Bdrck from '$lib/images/porjects/bdrck.eu.png';
+import Zephyr from '$lib/images/porjects/zephyr.events.png';
 
 export const projects = [
 	{
@@ -91,6 +96,76 @@ export const projects = [
 		url: 'https://centrumhechtopleidingen.nl/',
 		github: 'https://github.com/Muhammad-Rubel',
 		madeAt: 'Rebelslab',
+		technologies: ['Nuxt 3', 'TailwindCSS', 'TypeScript', 'Strapi']
+	},
+	{
+		tag: 'Featured',
+		name: 'Jilster Website and CMS',
+		description:
+			'Jilster is an online magazine editor that enables its users to easily co-create, self-publish, promote and share their own printed and online magazines, books and posters.',
+		image: {
+			alt: 'Jilster Website',
+			src: Jilster
+		},
+		url: 'https://jilster.app/',
+		github: 'https://github.com/Muhammad-Rubel',
+		madeAt: 'Rebelslab',
+		technologies: ['Nuxt', 'TailwindCSS', 'TypeScript', 'Strapi', 'i18n']
+	},
+	{
+		tag: 'Featured',
+		name: 'Rebelslab Website and CMS',
+		description:
+			'Rebelslab is a tech company that provides tailored digital solutions for businesses. They help companies from the ideation stage all the way to integration, offering services like custom software and hardware development, agile project management, and end-to-end digital solutions',
+		image: {
+			alt: 'Rebelslab Website',
+			src: Rebelslab
+		},
+		url: 'https://rebelslab.com/',
+		github: 'https://github.com/Muhammad-Rubel',
+		madeAt: 'Rebelslab',
+		technologies: ['Nuxt 3', 'TailwindCSS', 'TypeScript', 'Strapi']
+	},
+	{
+		tag: 'Featured',
+		name: 'H2 Fuel website and CMS',
+		description:
+			'H2Fuel will deliver an innovative, safe, easily transportable and storable circular energy solution. H2Fuel’s mission is to boost the energy transition by enabling a global hydrogen economy. With its patented hydrogen carrier and fully circular processes, H2Fuel effectively removes any drawbacks of hydrogen and enables the start of immediate implementation of the energy transition on a global scale. To realise this, H2Fuel is interested in combining powers with partners equally interested in changing the world for the better!',
+		image: {
+			alt: 'H2 Fuel website',
+			src: H2Fuel
+		},
+		url: 'https://h2-fuel.nl/',
+		github: 'https://github.com/Muhammad-Rubel',
+		madeAt: 'Rebelslab',
+		technologies: ['Nuxt 3', 'TailwindCSS', 'TypeScript', 'Strapi']
+	},
+	{
+		tag: 'Featured',
+		name: 'bdrck Website',
+		description:
+			'bdrck is a tech company in association with Rebelslab that provides tailored digital solutions for businesses. They help companies from the ideation stage all the way to integration, offering services like custom software and hardware development, agile project management, and end-to-end digital solutions',
+		image: {
+			alt: 'bdrck Website',
+			src: Bdrck
+		},
+		url: 'https://bdrck.eu/',
+		github: 'https://github.com/Muhammad-Rubel',
+		madeAt: 'Rebelslab',
+		technologies: ['Nuxt 3', 'TailwindCSS', 'TypeScript']
+	},
+	{
+		tag: 'Featured',
+		name: 'Zephyr Events Website',
+		description:
+			'Zephyr Events is the tech agency for events agencies. As a digital solutions agency, we work with industry-leading platforms such as Swoogo, Rainfocus, Cvent, and many more, to provide your clients with custom integrations, bespoke product builds, PWAs, and eye-catching designs.',
+		image: {
+			alt: 'Zephyr Website',
+			src: Zephyr
+		},
+		url: 'https://zephyr.events',
+		github: 'https://github.com/Muhammad-Rubel',
+		madeAt: 'SR Web Studio',
 		technologies: ['Nuxt 3', 'TailwindCSS', 'TypeScript', 'Strapi']
 	}
 ];
