@@ -1020,6 +1020,13 @@ input:focus,
 .filter {
 	filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
+.transition {
+	transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+	transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+	transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	transition-duration: 150ms;
+}
 .transition-all {
 	transition-property: all;
 	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -1117,10 +1124,10 @@ input:focus,
 		margin-right: calc(1rem * var(--tw-space-x-reverse));
 		margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
 	}
-	.md\:space-y-16 > :not([hidden]) ~ :not([hidden]) {
+	.md\:space-y-20 > :not([hidden]) ~ :not([hidden]) {
 		--tw-space-y-reverse: 0;
-		margin-top: calc(4rem * calc(1 - var(--tw-space-y-reverse)));
-		margin-bottom: calc(4rem * var(--tw-space-y-reverse));
+		margin-top: calc(5rem * calc(1 - var(--tw-space-y-reverse)));
+		margin-bottom: calc(5rem * var(--tw-space-y-reverse));
 	}
 	.md\:border-b-0 {
 		border-bottom-width: 0px;
