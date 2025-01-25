@@ -48,7 +48,7 @@
 				<img
 					src={data?.image?.src}
 					alt={data?.image?.alt}
-					class="h-full w-full transform rounded object-cover object-center transition-all duration-300 ease-in-out group-hover:translate-x-3 group-hover:translate-y-3"
+					class="h-full w-full transform rounded object-cover object-center transition-all duration-300 ease-in-out group-hover:translate-x-3 group-hover:translate-y-3 "
 				/>
 
 				<span
@@ -56,7 +56,7 @@
 				/>
 
 				<span
-					class="absolute top-0 left-0 z-0 h-full w-full bg-navy bg-opacity-30 transition-all duration-300 ease-in-out group-hover:translate-x-3 group-hover:translate-y-3"
+					class="absolute top-0 left-0 z-0 h-full w-full transform bg-navy bg-opacity-30 transition-all duration-300 ease-in-out group-hover:translate-x-3 group-hover:translate-y-3"
 				/>
 			</div>
 		</div>
