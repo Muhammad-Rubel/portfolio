@@ -48,14 +48,16 @@
 				<img
 					src={data?.image?.src}
 					alt={data?.image?.alt}
-					class="h-full w-full rounded object-cover object-center"
+					class="h-full w-full transform rounded object-cover object-center transition-all duration-300 ease-in-out group-hover:translate-x-3 group-hover:translate-y-3"
 				/>
 
 				<span
 					class="absolute top-5 left-5 z-[-1] h-full w-full rounded border-2 border-green transition-all duration-300 ease-in-out group-hover:top-3 group-hover:left-3"
 				/>
 
-				<span class="absolute top-0 left-0 z-0 h-full w-full bg-navy bg-opacity-30" />
+				<span
+					class="absolute top-0 left-0 z-0 h-full w-full bg-navy bg-opacity-30 transition-all duration-300 ease-in-out group-hover:translate-x-3 group-hover:translate-y-3"
+				/>
 			</div>
 		</div>
 	</div>

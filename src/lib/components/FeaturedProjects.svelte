@@ -33,7 +33,7 @@
 						<img
 							src={item.image.src}
 							alt={item.image.alt}
-							class="h-full w-full object-cover object-center bg-blend-color-dodge lg:h-auto"
+							class="h-full w-full rounded object-cover object-center bg-blend-color-dodge lg:h-auto"
 						/>
 
 						<span class="absolute top-0 left-0 z-0 h-full w-full bg-navy bg-opacity-30" />
@@ -44,7 +44,18 @@
 							((i + 1) % 2 === 0 ? '' : 'ml-auto lg:text-right')}
 					>
 						<p class="mb-2.5 font-mono text-[13px] text-green">{item.tag}</p>
-						<h3 class="mb-2.5 text-[clamp(24px,_5vw,_28px)] text-white lg:mb-5">{item.name}</h3>
+
+						<h3 class="mb-2.5 text-[clamp(24px,_5vw,_28px)] text-white lg:mb-5">
+							<a
+								href={item.url}
+								aria-label="link to {item.name}"
+								target="_blank"
+								class="custom-transition  hover:text-green"
+							>
+								{item.name}
+							</a>
+						</h3>
+
 						<p class="mb-2.5 font-mono text-[13px]">Made at: {item.madeAt}</p>
 						<p class="rounded py-5 text-base text-light-slate lg:bg-light-navy lg:p-6">
 							<span class="line-clamp-6">
